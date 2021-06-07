@@ -1,0 +1,21 @@
+/* Base Styles */
+body {
+    background-color: $white;
+    font-family: $raleway;
+    font-weight: $r-regular;
+    font-size: $medium;
+    z-index: 1;
+}
+
+/* Base Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: $old-standard-tt;
+    font-weight: $r-bold;
+    color: $smoky-black;
+}
+h1 {
+    font-size: $xxx-large;
+}
+p{
+    font-family: $raleway;
+}

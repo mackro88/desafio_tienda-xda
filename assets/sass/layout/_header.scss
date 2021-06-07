@@ -1,0 +1,36 @@
+/* Header Layout */ 
+.home-header{
+    background-color: $white;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+    &__logo{
+        background-color: $smoky-black;
+        color: $white;
+        font-family: $old-standard-tt;
+        font-weight: $r-regular;
+        font-size: $x-large;
+        width: 68px;
+        height: 68px;
+        top: 0;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        padding-top: 26px;
+        box-sizing: border-box;
+    }
+}
+@media (min-width: $breakpoint-tablet){
+    .home-header{
+        &__logo{
+            width: 100px;
+            height: 100px;
+            padding-top: 43px;
+        }
+    }
+}
+

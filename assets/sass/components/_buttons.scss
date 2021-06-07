@@ -1,0 +1,29 @@
+/* Buttons Styles */
+.home-main{
+    
+    &__btn-tienda{
+        border-radius: 0%;
+        border: 1px solid $smoky-black;
+        background-color: $white;
+        box-shadow: none;
+        margin: 1rem 0;
+        padding: .5rem;
+        font-size: $medium;
+        font-weight: $r-bold;
+        font-family: $raleway;
+        
+        &:hover{
+            background-color: $smoky-black;
+            color: $white;        
+            font-weight: $r-regular;
+        }
+    }
+}
+
+@media (min-width: $breakpoint-tablet){
+    .home-main{
+        &__btn-tienda{
+            padding: .7rem 1.7rem;
+        }
+    }
+}
